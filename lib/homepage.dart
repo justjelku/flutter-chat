@@ -1,3 +1,4 @@
+import 'package:chat_flutter/channelpage.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -16,7 +17,9 @@ class _HomePageState extends State<HomePage>{
         title: const Text("Chat"),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: (){},
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context) => const ChannelPage()));
+        },
         child: const Icon(Icons.add),
       ),
     );
