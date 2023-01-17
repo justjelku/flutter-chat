@@ -15,6 +15,10 @@ class _HomePageState extends State<HomePage>{
       appBar: AppBar(
         title: const Text("Chat"),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        child: const Icon(Icons.add),
+      ),
     );
   }
 }
