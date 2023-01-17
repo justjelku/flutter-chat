@@ -1,3 +1,4 @@
+import 'package:chat_flutter/homepage.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -5,5 +6,6 @@ void main(){
     debugShowCheckedModeBanner: false,
     theme: ThemeData.dark(),
     title: "Group Chat",
+    home: const HomePage(),
   ));
 }
